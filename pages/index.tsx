@@ -5,8 +5,6 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center w-full h-screen">
-      <QRCode value="hey" />
-    </div>
+    <div className="flex justify-center items-center w-full h-screen"></div>
   );
 }
